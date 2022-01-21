@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 
-const Contact = () => {
+const Hobbies = () => {
    return <Fragment></Fragment>;
 };
 
-export default Contact;
+export default Hobbies;
