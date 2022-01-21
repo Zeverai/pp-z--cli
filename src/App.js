@@ -9,10 +9,10 @@ import Projects from "./pages/Projects";
 import Hobbies from "./pages/Hobbies";
 import Contact from "./pages/Contact";
 // ----------------------------------------------------------------| Style
-
 const App = () => {
    return (
       <Router>
+         <NavBar />
          <Fragment>
             <Routes>
                <Route exact path='/' element={<Home />} />
