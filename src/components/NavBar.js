@@ -1,5 +1,10 @@
 // ----------------------------------------------------------------| React
 import React, { Fragment } from "react";
+// ----------------------------------------------------------------| Components
+import About from "../pages/About";
+import Contact from "../pages/Contact";
+import Hobbies from "../pages/Hobbies";
+import Projects from "../pages/Projects";
 // ----------------------------------------------------------------| Style
 import {
    Nav,
@@ -10,21 +15,12 @@ import {
    NavGroup,
    PageHeader,
    Page,
+   Button,
 } from "@patternfly/react-core";
 import { BrowserRouter } from "react-router-dom";
 
 const NavBar = () => {
-   return (
-      <Fragment>
-         <Nav variant='horizontal'>
-            <NavItem className='--pf-global--palette--black-400'>Home</NavItem>
-            <NavItem>About</NavItem>
-            <NavItem>Projects</NavItem>
-            <NavItem>Hobbies</NavItem>
-            <NavItem>Contact Me</NavItem>
-         </Nav>
-      </Fragment>
-   );
+   return <Fragment></Fragment>;
 };
 
 export default NavBar;
