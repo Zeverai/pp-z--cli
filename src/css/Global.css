@@ -1,1 +1,35 @@
-/* NAVIGATION BAR */
+/* GLOBAL RULES - COLOR TEMPLATE - MASTER CONTROL CSS */
+:root {
+   /* FONT - ROBOTO*/
+   font-family: "Open Sans", sans-serif;
+   font-family: "Roboto", sans-serif;
+
+   /*GLOBAL THEME*/
+   --primary-color: #3a3a3a;
+   --secondary-color: #666666;
+   --tertiary-color: #666666;
+   --quarternary-color: teal;
+   --quinary-color: purple;
+   --bg-dark: #535c5c;
+
+   /*LINK COLORS*/
+   --nav-link-bg-color: green;
+   --nav-highlight-color: rgb(3, 80, 80);
+   --link-color: #6a6a6a;
+   --link-shadow-color: #000000;
+   --nav-hover-color: #000000;
+   --link-highlight: green;
+   --nav-item-bg-color: teal;
+
+   /*SHADOW COLORS*/
+   --shadow-primary-color: #555555;
+   --shadow-secondary-color: teal;
+
+   /*HOVER COLORS*/
+   --link-hover-color: red;
+   --button-hover-color: red;
+}
+
+.bg-primary {
+   background-color: var(--primary-color);
+}

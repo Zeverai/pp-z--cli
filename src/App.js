@@ -10,7 +10,9 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Hobbies from "./pages/Hobbies";
 import Contact from "./pages/Contact";
+
 // ----------------------------------------------------------------| Style
+import ".";
 const App = () => {
    return (
       <Router>
