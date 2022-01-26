@@ -1,22 +1,22 @@
-// ----------------------------------------------------------------| React
+// ________________________________________________________________| React
 import React, { Fragment } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./css/Global.css";
-// ----------------------------------------------------------------| Components
+// ________________________________________________________________| Components
 import NavBar from "./components/NavBar";
-import HeadSplash from "./components/HeadSplash";
+import Header from "./components/Header";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Hobbies from "./pages/Hobbies";
 import Contact from "./pages/Contact";
+// ________________________________________________________________| Style
+import "./css/Global.css";
 
-// ----------------------------------------------------------------| Style
-import ".";
 const App = () => {
    return (
       <Router>
-         <HeadSplash />
+         <Header />
          <NavBar />
          <Fragment>
             <Routes>
