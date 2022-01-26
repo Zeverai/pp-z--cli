@@ -11,7 +11,7 @@ const HeadSplash = () => {
             <Link to='/'>
                <p className='header-title secret'>⌨</p>
             </Link>
-            <p className='header-title'> CODY TYLER</p>
+            <p className='header-title'>CODY TYLER</p>
          </div>
       </header>
    );

@@ -8,6 +8,16 @@
 
 /* GLOBAL RULES - COLOR TEMPLATE - MASTER CONTROL CSS */
 :root {
+   /* 
+   ALABASTER THEME
+   #fcfcfc --- Alabaster
+   #eceef5 --- Whisper
+   #ccccd3 --- Ghost
+   #f4f4fb --- White Lilac
+   #f4fvfv --- Aqua Spring 
+   #353535 --- Dark Grey
+   */
+
    /* Global Page Padding */
    padding: 2px;
 
@@ -18,16 +28,6 @@
    font-size: 16px;
    line-height: 1.7;
    color: #fcfcfc;
-
-   /* 
-   ALABASTER THEME
-   #fcfcfc --- Alabaster
-   #eceef5 --- Whisper
-   #ccccd3 --- Ghost
-   #f4f4fb --- White Lilac
-   #f4fvfv --- Aqua Spring 
-   #353535 --- Dark Grey
-   */
 
    /* FONT - SIZES */
    --sm-font: 12px;
