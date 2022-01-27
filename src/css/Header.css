@@ -1,5 +1,6 @@
 .header-container {
-   height: 27px;
+   height: 39px;
+   font-size: 24px;
    display: flex;
    flex-direction: row;
    justify-content: space-evenly;
@@ -14,6 +15,7 @@
    background-size: cover;
    background-position: right;
    position: sticky;
+   box-shadow: -1px 0px 10px black;
 }
 
 .header-title-splash {
@@ -32,6 +34,7 @@
 .secret {
    transition: all 0.2s;
 }
+
 .secret:hover {
    padding-left: 15px;
    padding-right: 15px;
@@ -41,8 +44,8 @@
    -o-transform: scale(1.15);
    -ms-transform: scale(1.15);
    -webkit-transform: scale(1.15);
-   transform: scale(1.05);
-   transition: all 0.2s;
    color: hsla(333, 100%, 53%, 0.901);
    text-shadow: 0px 1px 4px black;
+   transform: scale(1.45);
+   transition: all 0.2s;
 }

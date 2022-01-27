@@ -19,7 +19,9 @@
    */
 
    /* Global Page Padding */
-   padding: 2px;
+   padding-top: 5px;
+   /* padding-right: 5px; */
+   background-color: #353535;
 
    /* FONT - ROBOTO*/
    font-family: "Open Sans", sans-serif;

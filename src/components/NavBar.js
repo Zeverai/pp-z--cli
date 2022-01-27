@@ -11,7 +11,32 @@ import "../css/Global.css";
 import "../css/NavBar.css";
 
 const NavBar = () => {
-   return <nav className='nav-container'></nav>;
+   return (
+      <nav className='nav-container'>
+         <ul className='nav-ul'>
+            <li className='nav-item'>
+               <Link to='/' className='nav-link'>
+                  home
+               </Link>
+            </li>
+            <li className='nav-item'>
+               <Link to='/' className='nav-link'>
+                  about
+               </Link>
+            </li>
+            <li className='nav-item'>
+               <Link to='/' className='nav-link'>
+                  projects
+               </Link>
+            </li>
+            <li className='nav-item'>
+               <Link to='/' className='nav-link'>
+                  contact
+               </Link>
+            </li>
+         </ul>
+      </nav>
+   );
 };
 
 export default NavBar;
