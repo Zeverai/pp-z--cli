@@ -29,6 +29,9 @@
    padding-right: 5px;
 }
 
+.secret {
+   transition: all 0.2s;
+}
 .secret:hover {
    padding-left: 15px;
    padding-right: 15px;
