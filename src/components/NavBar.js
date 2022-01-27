@@ -2,10 +2,6 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 // ________________________________________________________________| Components
-import About from "../pages/About";
-import Contact from "../pages/Contact";
-import Hobbies from "../pages/Hobbies";
-import Projects from "../pages/Projects";
 // ________________________________________________________________| Style
 import "../css/Global.css";
 import "../css/NavBar.css";
@@ -20,17 +16,17 @@ const NavBar = () => {
                </Link>
             </li>
             <li className='nav-item'>
-               <Link to='/' className='nav-link'>
-                  about
+               <Link to='/about' className='nav-link'>
+                  whoami
                </Link>
             </li>
             <li className='nav-item'>
-               <Link to='/' className='nav-link'>
+               <Link to='/projects' className='nav-link'>
                   projects
                </Link>
             </li>
             <li className='nav-item'>
-               <Link to='/' className='nav-link'>
+               <Link to='/contact' className='nav-link'>
                   contact
                </Link>
             </li>

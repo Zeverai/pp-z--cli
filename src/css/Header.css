@@ -1,17 +1,17 @@
 .header-container {
-   height: 39px;
-   font-size: 24px;
+   height: 59px;
+   font-size: 34px;
+   color: #eef0f2;
    display: flex;
    flex-direction: row;
    justify-content: space-evenly;
-   color: var(--font-color);
-   background-color: var(--primary-color);
-   background-image: linear-gradient(
+   color: #eef0f2;
+   /* background-image: linear-gradient(
          90deg,
          rgba(0, 88, 119, 0.501) 0%,
          hsla(0, 0%, 0%, 0.73) 40%
       ),
-      url(../images/Raleigh-NC-01-19-2022.jpg);
+      url(../images/Raleigh-NC-01-19-2022.jpg); */
    background-size: cover;
    background-position: right;
    position: sticky;

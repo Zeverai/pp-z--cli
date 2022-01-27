@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./css/Global.css";
 // ________________________________________________________________| Components
 import NavBar from "./components/NavBar";
+import FootBar from "./components/FootBar";
+import Cultured from "./components/Cultured";
 import Header from "./components/Header";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -18,15 +20,18 @@ const App = () => {
       <Router>
          <Header />
          <NavBar />
+         <Cultured />
          <Fragment>
             <Routes>
                <Route exact path='/' element={<Home />} />
-               <Route exact path='/About' element={<About />} />
-               <Route exact path='/Projects' element={<Projects />} />
-               <Route exact path='/Contact' element={<Contact />} />
-               <Route exact path='/Hobbies' element={<Hobbies />} />
+               <Route exact path='/about' element={<About />} />
+               <Route exact path='/projects' element={<Projects />} />
+               <Route exact path='/contact' element={<Contact />} />
+               <Route exact path='/hobbies' element={<Hobbies />} />
             </Routes>
          </Fragment>
+         <Cultured />
+         <FootBar />
       </Router>
    );
 };
