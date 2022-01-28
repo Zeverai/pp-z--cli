@@ -35,7 +35,7 @@
    border: solid;
    border-width: 0px;
    border-color: black;
-   box-shadow: -3px 4px 4px black;
+   box-shadow: 0px 4px 15px black inset;
    /* clip: rect(1px, 10px, 3rem, 2ch); */
    transition: 0.3s;
 }
