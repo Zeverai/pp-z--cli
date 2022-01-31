@@ -22,7 +22,6 @@
    justify-content: top;
    align-items: center;
    height: 73vh;
-   /* width: 80vh; */
    border-radius: 0px;
    background-image: linear-gradient(to bottom, hsla(0, 0%, 0%, 0.81), #00161dd9),
       url(../images/IMG-8556.jpg);
@@ -36,8 +35,8 @@
    border-width: 0px;
    border-color: black;
    box-shadow: 0px 4px 15px black inset;
-   /* clip: rect(1px, 10px, 3rem, 2ch); */
    transition: 0.3s;
+   text-shadow: 0px 0px 14px rgb(0, 0, 0);
 }
 
 .about-h1 {
@@ -54,7 +53,6 @@
 
 .about-p {
    color: #eef0f2;
-   text-shadow: 0px 1px 2px rgb(0, 53, 82);
    padding: 5px;
 }
 

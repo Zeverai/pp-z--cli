@@ -21,7 +21,7 @@
 .header-title-splash {
    display: flex;
    flex-direction: row;
-   background-color: var(bg-color);
+   /* background-color: ; */
 }
 
 .header-title {

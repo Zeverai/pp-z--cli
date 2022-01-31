@@ -5,7 +5,7 @@ const About = () => {
    return (
       <div className='about-wrapper'>
          <div className='about-meat-wrapper'>
-            <h1 className='about-h1'>I'm Cody.</h1>
+            <h1 className='about-h1'>Greeting Area.</h1>
             <div className='about-paragraphs'>
                <p className='about-p'>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
