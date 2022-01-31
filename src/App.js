@@ -2,6 +2,7 @@
 import React, { Fragment } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./css/Global.css";
+
 // ________________________________________________________________| Components
 import NavBar from "./components/NavBar";
 import FootBar from "./components/FootBar";
@@ -12,8 +13,11 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Hobbies from "./pages/Hobbies";
 import Contact from "./pages/Contact";
+
 // ________________________________________________________________| Style
 import "./css/Global.css";
+
+// ________________________________________________________________| App
 
 const App = () => {
    return (
