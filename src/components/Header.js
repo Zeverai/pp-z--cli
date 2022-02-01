@@ -7,11 +7,11 @@ const HeadSplash = () => {
    return (
       <header className='header-container'>
          <div className='header-title-splash '>
-            <p className='header-title'>Z E V E R A I</p>
+            <p className='header-title'>Page</p>
             <Link to='/'>
-               <p className='header-title secret'>♅</p>
+               <p className='header-title secret'>Title</p>
             </Link>
-            <p className='header-title'>CODY TYLER</p>
+            <p className='header-title'>Here</p>
          </div>
       </header>
    );

@@ -6,12 +6,11 @@ import { fadeInRight } from "react-animations";
 import "../css/About.css";
 
 // ________________________________________________________________| About
-
 const About = () => {
    return (
       <div className='about-wrapper'>
          <div className='about-meat-wrapper'>
-            <h1 className='about-h1'>Greeting Area.</h1>
+            <h1 className='about-h1'>Greetings.</h1>
             <div className='about-paragraphs'>
                <p className='about-p'>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

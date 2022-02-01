@@ -7,8 +7,8 @@
    font-size: 18px;
    text-shadow: 0px 0px 3px ghostwhite;
    text-shadow: 0px 1px 2px rgb(0, 0, 0);
-   background-color: hsla(333, 100%, 53%, 0.768);
-   background-color: #938274;
+   background-color: hsla(333, 100%, 53%, 0.968);
+   /* background-color: #938274; */
    border-radius: 0px;
    background-image: url(../images/richmond.jpg);
    background-repeat: no-repeat;
@@ -23,8 +23,8 @@
    align-items: center;
    height: 73vh;
    border-radius: 0px;
-   background-image: linear-gradient(to bottom, hsla(0, 0%, 0%, 0.81), #00161dd9),
-      url(../images/IMG-8556.jpg);
+   /* background-image: linear-gradient(to bottom, hsla(0, 0%, 0%, 0.81), #00161dd9),
+      url(../images/IMG-8556.jpg); */
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
@@ -34,9 +34,9 @@
    border: solid;
    border-width: 0px;
    border-color: black;
-   box-shadow: 0px 4px 15px black inset;
+   box-shadow: 0px 4px 5px black;
    transition: 0.3s;
-   text-shadow: 0px 0px 14px rgb(0, 0, 0);
+   text-shadow: 0px 0px 2px rgb(0, 0, 0);
 }
 
 .about-h1 {

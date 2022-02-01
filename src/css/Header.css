@@ -4,14 +4,15 @@
    color: #eef0f2;
    display: flex;
    flex-direction: row;
-   justify-content: space-evenly;
+   justify-content: center;
    color: #eef0f2;
    /* background-image: linear-gradient(
          90deg,
-         rgba(0, 88, 119, 0.501) 0%,
-         hsla(0, 0%, 0%, 0.73) 40%
+         rgba(255, 255, 255, 0.501) 0%,
+         hsla(0, 0%, 0%, 0.73) 100%
       ),
       url(../images/Raleigh-NC-01-19-2022.jpg); */
+   background-blend-mode: multiply;
    background-size: cover;
    background-position: right;
    position: sticky;
@@ -21,7 +22,14 @@
 .header-title-splash {
    display: flex;
    flex-direction: row;
-   /* background-color: ; */
+   justify-content: center;
+   /* background-color: #00161d54; */
+   /* TRIANGLE SHIT: */
+   /* width: 60;
+   height: 0;
+   border: 100px solid transparent;
+   border-top: 0px;
+   border-bottom: 59px solid #00161d; */
 }
 
 .header-title {
