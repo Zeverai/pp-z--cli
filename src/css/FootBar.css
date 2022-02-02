@@ -27,7 +27,6 @@
    display: flex;
    flex-direction: row;
    justify-content: center;
-   transform: scale(1.3);
 }
 
 .footer-icon {
@@ -42,5 +41,4 @@
    cursor: pointer;
    transform: scale(1.45);
    transition: 0.2s;
-   /* background-color: hsla(333, 100%, 53%, 0.901); */
 }
