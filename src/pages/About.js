@@ -1,6 +1,5 @@
 // ________________________________________________________________| Imports
 import React, { Fragment } from "react";
-import { fadeInRight } from "react-animations";
 
 // __________________f_____________________________________________| Style
 import "../css/About.css";
