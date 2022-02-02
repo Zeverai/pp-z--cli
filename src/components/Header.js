@@ -1,8 +1,9 @@
+// ________________________________________________________________| Imports
 import React from "react";
 import { Link } from "react-router-dom";
 import "../css/Global.css";
 import "../css/Header.css";
-
+// ________________________________________________________________| HeadSplash
 const HeadSplash = () => {
    return (
       <header className='header-container'>
