@@ -3,7 +3,7 @@ import React, { Fragment } from "react";
 
 // ________________________________________________________________| Home
 const Home = () => {
-   return <Fragment></Fragment>;
+   return <div className='home-container'></div>;
 };
 
 export default Home;
