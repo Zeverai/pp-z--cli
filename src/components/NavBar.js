@@ -8,30 +8,20 @@ import "../css/NavBar.css";
 
 const NavBar = () => {
    return (
-      <nav className='nav-container'>
-         <ul className='nav-ul'>
-            <li className='nav-item'>
-               <Link to='/' className='nav-link'>
-                  home
-               </Link>
-            </li>
-            <li className='nav-item'>
-               <Link to='/about' className='nav-link'>
-                  whoami
-               </Link>
-            </li>
-            <li className='nav-item'>
-               <Link to='/projects' className='nav-link'>
-                  projects
-               </Link>
-            </li>
-            <li className='nav-item'>
-               <Link to='/contact' className='nav-link'>
-                  contact
-               </Link>
-            </li>
-         </ul>
-      </nav>
+      <div className='nav-container'>
+         <Link to='/' className='nav-item'>
+            PROFILE
+         </Link>
+         <Link to='/about' className='nav-item'>
+            WHOAMI
+         </Link>
+         <Link to='/projects' className='nav-item'>
+            PROJECTS
+         </Link>
+         <Link to='/contact' className='nav-item'>
+            CONTACT
+         </Link>
+      </div>
    );
 };
 
