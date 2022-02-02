@@ -1,7 +1,5 @@
-/* NAVIGATION BAR */
 @import "./Global.css";
 
-/* NAV TREE*/
 .nav-container {
    display: flex;
    flex-direction: row;
