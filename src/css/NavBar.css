@@ -3,14 +3,15 @@
 .nav-container {
    display: flex;
    flex-direction: row;
+   justify-content: space-around;
+   align-content: center;
    height: 23px;
    padding-top: 2px;
-   font-size: 14px;
+   font-size: 15px;
+   font-weight: 400px;
    display: flex;
    background-color: #00161d;
-   justify-content: space-between;
    align-items: center;
-   border-color: #eef0f2;
 }
 
 .nav-item {
@@ -20,7 +21,9 @@
    justify-content: center;
    height: 100%;
    width: 100%;
-   transition: all 1.4s;
+   transition: all 1.2s;
+   padding-left: 10px;
+   padding-right: 10px;
 }
 
 .nav-item:hover {
@@ -30,7 +33,5 @@
    flex-direction: row;
    justify-content: center;
    height: 100%;
-   /* transform: scale(940%); */
    transition: all 0.1s;
-   border-radius: 1px;
 }
