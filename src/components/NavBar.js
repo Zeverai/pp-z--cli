@@ -1,7 +1,7 @@
 // ________________________________________________________________| React
 import React, { setState, useEffect } from "react";
 import { Link } from "react-router-dom";
-// ________________________________________________________________| Components
+
 // ________________________________________________________________| Style
 import "../css/Global.css";
 import "../css/NavBar.css";
@@ -10,10 +10,10 @@ const NavBar = () => {
    return (
       <div className='nav-container'>
          <Link to='/' className='nav-item'>
-            PROFILE
+            HOME
          </Link>
          <Link to='/about' className='nav-item'>
-            WHOAMI
+            WHO AM I
          </Link>
          <Link to='/projects' className='nav-item'>
             PROJECTS
