@@ -41,8 +41,10 @@
    --tertiary-color: #ccccd3;
    --quarternary-color: #f4f4fb;
    --quinary-color: #f4fcfc;
-   --bg-color: #353535;
-   --font-color: #353535;
+   --bgc-light: #353535;
+   --bgc-dark: #353535;
+   --fc-light: #353535;
+   --fc-dark: #353535;
 
    /*LINK COLORS*/
    --nav-link-bg-color: green;
