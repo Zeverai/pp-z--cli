@@ -6,60 +6,26 @@
    text-decoration: none;
 }
 
-/* GLOBAL RULES - COLOR TEMPLATE - MASTER CONTROL CSS */
+/* _______________________________________________________________| GLOBAL RULES */
 :root {
-   /* 
-   ALABASTER THEME
-   #fcfcfc --- Alabaster
-   #eceef5 --- Whisper
-   #ccccd3 --- Ghost
-   #f4f4fb --- White Lilac
-   #f4fvfv --- Aqua Spring 
-   #353535 --- Dark Grey
-   */
-
-   /* Global Page Padding */
-   /* padding-top: 5px; */
-   background-color: #353535;
-
-   /* FONT - ROBOTO*/
+   background-color: var(--dark);
+   line-height: 1.4;
+   color: var(--cultured);
+   /* _______________________________________________________________| FONT SIZE */
+   --sm: 12px;
+   --md: 16px;
+   --lg: 22px;
+   /* _____________________________________________________________| FONT WEIGHT */
+   --wt-lg: 600;
+   --wt-md: 400;
+   --wt-sm: 300;
    font-family: "Open Sans", sans-serif;
    font-family: "Roboto", sans-serif;
-   font-weight: 400;
+   font-weight: var(--wt-md);
    font-size: 16px;
-   line-height: 1.7;
-   color: #fcfcfc;
-
-   /* FONT - SIZES */
-   --sm-font: 12px;
-   --md-font: 16px;
-   --lg-font: 22px;
-
-   /*GLOBAL COLOR THEME*/
-   --primary-color: #fcfcfc;
-   --secondary-color: #eceef5;
-   --tertiary-color: #ccccd3;
-   --quarternary-color: #f4f4fb;
-   --quinary-color: #f4fcfc;
-   --bgc-light: #353535;
-   --bgc-dark: #353535;
-   --fc-light: #353535;
-   --fc-dark: #353535;
-
-   /*LINK COLORS*/
-   --nav-link-bg-color: green;
-   --nav-highlight-color: rgb(3, 80, 80);
-   --link-color: #6a6a6a;
-   --link-shadow-color: #000000;
-   --nav-hover-color: #000000;
-   --link-highlight: red;
-   --nav-item-bg-color: teal;
-
-   /*SHADOW COLORS*/
-   --shadow-primary-color: #555555;
-   --shadow-secondary-color: teal;
-
-   /*HOVER COLORS*/
-   --link-hover-color: red;
-   --button-hover-color: red;
+   /* _________________________________________________________________| COLORS */
+   --dark: hsla(194, 100%, 6%, 1);
+   --medium: hsla(27, 13%, 52%, 1);
+   --vibrant: hsla(333, 100%, 53%, 0.901);
+   --cultured: hsla(210, 13%, 94%, 1);
 }

@@ -1,40 +1,26 @@
 .header-container {
    height: 59px;
    font-size: 34px;
-   color: #eef0f2;
    display: flex;
    flex-direction: row;
    justify-content: center;
-   color: #eef0f2;
-   /* background-image: linear-gradient(
-         90deg,
-         rgba(255, 255, 255, 0.501) 0%,
-         hsla(0, 0%, 0%, 0.73) 100%
-      ),
-      url(../images/Raleigh-NC-01-19-2022.jpg); */
+   color: var(--cultured);
    background-blend-mode: multiply;
    background-size: cover;
    background-position: right;
    position: sticky;
-   box-shadow: -1px 0px 10px black;
+   box-shadow: var(--dark);
 }
 
 .header-title-splash {
    display: flex;
    flex-direction: row;
    justify-content: center;
-   /* background-color: #00161d54; */
-   /* TRIANGLE SHIT: */
-   /* width: 60;
-   height: 0;
-   border: 100px solid transparent;
-   border-top: 0px;
-   border-bottom: 59px solid #00161d; */
 }
 
 .header-title {
    color: var(--primary-color);
-   text-shadow: 0px 1px 2px black;
+   text-shadow: -var(--dark);
    padding-left: 5px;
    padding-right: 5px;
 }
@@ -52,8 +38,8 @@
    -o-transform: scale(1.15);
    -ms-transform: scale(1.15);
    -webkit-transform: scale(1.15);
-   color: hsla(333, 100%, 53%, 0.901);
-   text-shadow: 0px 1px 4px black;
+   color: var(--vibrant);
+   text-shadow: var(--dark);
    transform: scale(1.45);
    transition: all 0.2s;
 }
