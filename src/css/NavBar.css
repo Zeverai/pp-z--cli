@@ -26,7 +26,7 @@
 
 .nav-item:hover {
    display: flex;
-   color: hsla(0, 0%, 0%, 0.901);
+   color: var(--dark);
    background-color: var(--vibrant);
    flex-direction: row;
    justify-content: center;
